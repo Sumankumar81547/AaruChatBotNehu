@@ -7,7 +7,7 @@ from pyrogram.enums import ChatAction
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import MONGO_URL
-from Aaru import LOCOPILOT 
+from Aaru import Ravan 
 from Aaru.modules.helpers import CHATBOT_ON, is_admins
 
 
