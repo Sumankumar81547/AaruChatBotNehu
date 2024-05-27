@@ -11,7 +11,7 @@ from Aaru import Ravan
 from Aaru.modules.helpers import CHATBOT_ON, is_admins
 
 
-@LOCOPILOT.on_message(filters.command(["chatbot"]) & filters.group & ~filters.bot)
+@Ravan.on_message(filters.command(["chatbot"]) & filters.group & ~filters.bot)
 @is_admins
 async def chaton_off(_, m: Message):
     await m.reply_text(
