@@ -247,7 +247,7 @@ async def chatbot_pvt(client: Client, message: Message):
                 await message.reply_text(f"{hey}")
 
 
-@LOCOPILOT.on_message(
+@Ravan.on_message(
     (filters.sticker | filters.sticker | filters.group)
     & ~filters.private
     & ~filters.bot,
