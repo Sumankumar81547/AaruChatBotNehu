@@ -21,7 +21,7 @@ async def chaton_off(_, m: Message):
     return
 
 
-@LOCOPILOT.on_message(
+@Ravan.on_message(
     (filters.text | filters.sticker | filters.group) & ~filters.private & ~filters.bot,
 )
 async def chatbot_text(client: Client, message: Message):
