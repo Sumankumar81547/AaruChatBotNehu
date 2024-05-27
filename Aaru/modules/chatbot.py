@@ -110,7 +110,7 @@ async def chatbot_text(client: Client, message: Message):
                     )
 
 
-@LOCOPILOT.on_message(
+@Ravan.on_message(
     (filters.sticker | filters.group | filters.text) & ~filters.private & ~filters.bot,
 )
 async def chatbot_sticker(client: Client, message: Message):
