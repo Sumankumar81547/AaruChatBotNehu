@@ -5,28 +5,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-API_ID = int(getenv("API_ID", "28689465"))
+API_ID = int(getenv("API_ID", "26915516"))
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-API_HASH = getenv("API_HASH", "fedd61d8e38f8afaed63c01b8438cbe4")
+API_HASH = getenv("API_HASH", "e627a1de196faf0e77963f0868537491")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-OWNER_ID = int(getenv("OWNER_ID", "6927241780"))
+OWNER_ID = int(getenv("OWNER_ID", "7105285015"))
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
 MONGO_URL = getenv("MONGO_URL")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-SUPPORT_GRP = getenv("SUPPORT_GRP", "Ravan_Lankaa")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "R_I_S_I_NG")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-UPDATE_CHNL = getenv("UPDATE_CHNL", "God_Ravana")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "ROYAL_WORLD_84")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
-OWNER_USERNAME = getenv("OWNER_USERNAME", "GOD_R4V4N")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "NeHa_942")
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
 BOT_USERNAME = getenv("BOT_USERNAME", None)
